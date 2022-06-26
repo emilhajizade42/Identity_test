@@ -1,0 +1,57 @@
+footer{
+    min-height: 395px;
+    background-color: #262626;
+    margin-top: 50px;
+    li a{
+        color: #52D681;
+        transition: all 0.3s;
+        &:hover{
+            color: #f8f8f8;
+        }
+    }
+}
+.footer_container{
+        min-height:315px ;
+        max-width: 1100px;
+        margin: 0 auto;
+}
+.footer_navs{
+    width: 100%;
+}
+.footer_content_text{
+    max-width: 350px;
+}
+.footer_linknav{
+    max-width: 145px;
+}
+.footer_worknav{
+    max-width: 145px;
+}
+.footer_form{
+    max-width: 335px;
+    input{
+        padding: 10px 22px;
+        width: 235px;
+        border-radius: 5px;
+    }
+    button{
+        margin-top: 5px;
+        height: 55px;
+        width: 85px;
+        padding: 0 20px;
+        background-color: #52D681;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+.footer_copyright{
+    height: 85px;
+    background-color: #1a1a1a;
+    font-size: 11px;
+}
+.footer_copyright_container{
+    color: #868686;
+    width: 1100px;
+    margin: 0 auto;
+}
